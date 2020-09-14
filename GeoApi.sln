@@ -8,7 +8,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0D64E038-9E65-4B02-A5BF-E293E16E8FFB}"
 	ProjectSection(SolutionItems) = preProject
 		README.md = README.md
-		GeoApi\requirements.txt = GeoApi\requirements.txt
+		requirements.txt = requirements.txt
 	EndProjectSection
 EndProject
 Global
