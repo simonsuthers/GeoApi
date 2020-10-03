@@ -28,6 +28,12 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="app.py" />
+    <Compile Include="FlaskApi\views.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FlaskApi\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Pictures\Add project to git.png" />
@@ -64,6 +70,8 @@
     </Interpreter>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="FlaskApi\" />
+    <Folder Include="FlaskApi\templates\" />
     <Folder Include="Pictures\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.Web.targets" />
