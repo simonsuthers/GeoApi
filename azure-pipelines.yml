@@ -8,7 +8,7 @@ trigger:
 
 variables:
   # Azure Resource Manager connection created during pipeline creation
-  azureServiceConnectionId: '500c0b75-00e3-435e-b24e-a53cea4d515f'
+  azureServiceConnectionId: 'ea627850-e995-460f-b2fb-627f07c02607'
   
   # Web app name
   webAppName: 'propertymageoapi'
@@ -84,5 +84,5 @@ stages:
             inputs:
               azureSubscription: $(azureServiceConnectionId)
               appName: $(webAppName)
-              package: $(Pipeline.Workspace)/drop/$(Build.BuildId).zip             
-              #startUpCommand: 'startup.txt'
+              package: $(Pipeline.Workspace)/drop/$(Build.BuildId).zip
+              startUpCommand: 'gunicorn --bind=0.0.0.0 --workers=4 app:app'
