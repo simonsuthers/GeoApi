@@ -27,11 +27,11 @@ To add to github, click on the Team Explorer tab and click on the Publish to Git
 ### Add startup file for Azure
 Add a text file to the route of the project:
 
-<img src="/GeoApi/Pictures/Add%20startup%20file.png" width="50%">
+<img src="/GeoApi/Pictures/Add%20startup%20file.png" width="35%">
 
 Within the text file, add a reference to the app method within the app.py file:
 
-<img src="/GeoApi/Pictures/startup%20file.png" width="25%">
+<img src="/GeoApi/Pictures/startup%20file.png" width="60%">
 
 See the following for more information on adding a startup file:
 
@@ -39,6 +39,7 @@ https://docs.microsoft.com/en-gb/azure/developer/python/tutorial-deploy-app-serv
 
 ### Deploy to Azure
 See the following page for installing the Azure CLI for Windows:
+* To see the Azure portal go to: https://portal.azure.com/
 
 https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-windows?tabs=azure-cli
 
@@ -58,9 +59,7 @@ The followoing exlplains how to add a Flask project to Azure DevOps CI:
 https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops
 
 Create an account on Azure DevOps first.
-* Go to Azure Dev ops:
-https://dev.azure.com/
-
+* Go to Azure Dev ops: https://dev.azure.com/
 * Create a new project in Azure DevOps
 * In the new project, go to project settings
 
@@ -68,11 +67,11 @@ https://dev.azure.com/
 
 * Within projects settings, go to Service connections
 
-<img src="/GeoApi/Pictures/CI-service%20connections.png" width="40%">
+<img src="/GeoApi/Pictures/CI-service%20connections.png" width="30%">
 
 * Choose Azure Resource manager
 
-<img src="/GeoApi/Pictures/CI-New%20service%20connection.png" width="40%">
+<img src="/GeoApi/Pictures/CI-New%20service%20connection.png" width="50%">
 
 * Choose Service Principal (Automatic)
 
@@ -80,7 +79,7 @@ https://dev.azure.com/
 
 * Set the service connection scope level
 
-<img src="/GeoApi/Pictures/CI-Service%20connection%20new%20scope.png" width="40%">
+<img src="/GeoApi/Pictures/CI-service%20connection%20new%20scope.png" width="40%">
 
 * Go back to the main project page and choose a new pipeline
 
@@ -88,23 +87,23 @@ https://dev.azure.com/
 
 * Select GitHub as the repository for the code
 
-<img src="/GeoApi/Pictures/Code%20for%20pipeline.png" width="40%">
+<img src="/GeoApi/Pictures/Code%20for%20pipeline.png" width="60%">
 
 * Select the relevant GitHub repository
 
-<img src="/GeoApi/Pictures/Select%20GitHub%20repository.png" width="40%">
+<img src="/GeoApi/Pictures/Select%20github%20repository.png" width="40%">
 
 * Choose Python to Linux Web app on Azure as a pipeline template
 
-<img src="/GeoApi/Pictures/Configure%20pipeline.png" width="40%">
+<img src="/GeoApi/Pictures/Configure%20pipeline.png" width="60%">
 
 * Choose the relevant web app name from the drop down list
 
-<img src="/GeoApi/Pictures/Web%20app%20name.png" width="40%">
+<img src="/GeoApi/Pictures/web%20app%20name.png" width="40%">
 
 * Review the created yaml
 
-<img src="/GeoApi/Pictures/Review%20yaml.png" width="40%">
+<img src="/GeoApi/Pictures/review%20yaml.png" width="40%">
 
 * Change the root in the yaml so that it looks at the project, rather than the solution
 
