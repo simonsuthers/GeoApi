@@ -10,7 +10,7 @@ Create the project in Viual Studio using the Flask template:
 <img src="/GeoApi/Pictures/Create%20project.png" width="750">
 
 ## Add project to git
-Add project to git using th Add to source control button in the bottom right of the screen:
+Add project to git using the Add to Source Control button in the bottom right of the screen:
 <img src="/GeoApi/Pictures/Add%20project%20to%20git.png" width="750">
 
 ## Publish project to github
