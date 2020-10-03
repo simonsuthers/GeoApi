@@ -7,7 +7,7 @@ Project was created using the following tutorial to publish to github:
 https://docs.microsoft.com/en-us/visualstudio/python/learn-flask-visual-studio-step-01-project-solution?view=vs-2019
 
 ## Add project to git
-![Alt text](/GeoApi/Pictures/Create%20project.png?raw=true "Title"){:height="50%" width="50%"}
+![Alt text](/GeoApi/Pictures/Create%20project.png?raw=true "Title" | width=100)
 
 ## Publish project to github
 
