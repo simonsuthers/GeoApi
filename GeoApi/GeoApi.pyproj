@@ -36,7 +36,11 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="FlaskApi\static\data.json" />
+    <Content Include="FlaskApi\static\site.css" />
+    <Content Include="FlaskApi\templates\about.html" />
     <Content Include="FlaskApi\templates\index.html" />
+    <Content Include="FlaskApi\templates\layout.html" />
     <Content Include="Pictures\Add project to git.png" />
     <Content Include="Pictures\Add startup file.png" />
     <Content Include="Pictures\CI-New service connection.png" />
@@ -72,6 +76,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="FlaskApi\" />
+    <Folder Include="FlaskApi\static\" />
     <Folder Include="FlaskApi\templates\" />
     <Folder Include="Pictures\" />
   </ItemGroup>
