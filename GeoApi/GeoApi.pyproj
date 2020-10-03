@@ -30,6 +30,9 @@
     <Compile Include="app.py" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Pictures\Add project to git.png" />
+    <Content Include="Pictures\Create project.png" />
+    <Content Include="Pictures\Publish to github.png" />
     <Content Include="requirements.txt" />
     <Content Include="startup.txt" />
   </ItemGroup>
@@ -43,6 +46,9 @@
       <PathEnvironmentVariable>PYTHONPATH</PathEnvironmentVariable>
       <Architecture>X64</Architecture>
     </Interpreter>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Pictures\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.Web.targets" />
   <!-- Specify pre- and post-build commands in the BeforeBuild and 
