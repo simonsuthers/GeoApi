@@ -23,5 +23,5 @@ To add to github, click on the Team Explorer tab and click on the Publish to Git
 
 <img src="/GeoApi/Pictures/Publish%20to%20github.png" width="35%">
 
-
-# Deploying to Azure
+## Deploying to Azure
+### Add startup file for Azure
