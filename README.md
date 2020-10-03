@@ -15,7 +15,7 @@ Add project to git using the Add to Source Control button in the bottom right of
 
 ## Publish project to github
 To add to github, click on the Team Explorer tab and click on the Publish to GitHub button.
-<img src="/GeoApi/Pictures/Publish%20to%20github.png" width="50%">
+<img src="/GeoApi/Pictures/Publish%20to%20github.png" width="25%">
 
 
 # Deploying to Azure
