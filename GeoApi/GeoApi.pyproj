@@ -32,9 +32,23 @@
   <ItemGroup>
     <Content Include="Pictures\Add project to git.png" />
     <Content Include="Pictures\Add startup file.png" />
+    <Content Include="Pictures\CI-New service connection.png" />
+    <Content Include="Pictures\CI-project settings.png" />
+    <Content Include="Pictures\CI-service connection new scope.png" />
+    <Content Include="Pictures\CI-Service connection principal.png" />
+    <Content Include="Pictures\CI-service connections.png" />
+    <Content Include="Pictures\Code for pipeline.png" />
+    <Content Include="Pictures\Configure pipeline.png" />
     <Content Include="Pictures\Create project.png" />
+    <Content Include="Pictures\New pipeline.png" />
     <Content Include="Pictures\Publish to github.png" />
+    <Content Include="Pictures\review yaml.png" />
+    <Content Include="Pictures\run pipeline.png" />
+    <Content Include="Pictures\Select github repository.png" />
     <Content Include="Pictures\startup file.png" />
+    <Content Include="Pictures\web app name.png" />
+    <Content Include="Pictures\yaml root.png" />
+    <Content Include="Pictures\yaml startup.png" />
     <Content Include="requirements.txt" />
     <Content Include="startup.txt" />
   </ItemGroup>
