@@ -25,3 +25,34 @@ To add to github, click on the Team Explorer tab and click on the Publish to Git
 
 ## Deploying to Azure
 ### Add startup file for Azure
+Add a text file to the route of the project:
+
+<img src="/GeoApi/Pictures/Add%20startup%20file.png" width="50%">
+
+Within the text file, add a reference to the app method within the app.py file:
+
+<img src="/GeoApi/Pictures/startup%20file.png" width="50%">
+
+See the following for more information on adding a startup file:
+
+https://docs.microsoft.com/en-gb/azure/developer/python/tutorial-deploy-app-service-on-linux-04
+
+### Deploy to Azure
+See the following page for installing the Azure CLI for Windows:
+
+https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-windows?tabs=azure-cli
+
+Open Command Prompt and CD to the location of the solution:
+
+Run the following command to publish the site to azure:
+```
+az webapp up -g <resource-group> -n <name-of-app> -l uksouth --sku FREE --subscription <my-subscription-id>
+````
+Run the following command to set the startup.txt file as a startup file:
+```
+az webapp config set -g <resource-group> -n <name-of-app> --startup-file startup.txt
+```
+
+### App App to Continuous Integration
+
+

@@ -31,8 +31,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Pictures\Add project to git.png" />
+    <Content Include="Pictures\Add startup file.png" />
     <Content Include="Pictures\Create project.png" />
     <Content Include="Pictures\Publish to github.png" />
+    <Content Include="Pictures\startup file.png" />
     <Content Include="requirements.txt" />
     <Content Include="startup.txt" />
   </ItemGroup>
